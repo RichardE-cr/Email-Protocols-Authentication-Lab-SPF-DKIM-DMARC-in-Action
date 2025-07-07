@@ -245,7 +245,7 @@ After restoring the correct SPF and DKIM records, the third test email was succe
 
 This analysis confirms that the corrected SPF and DKIM records restored full deliverability and alignment. The email successfully passed through modern email security checks — a critical validation step for any email simulation platform or security training environment.
 
-**Email Header info for reference**
+**Email Header info for reference:**
 
 ```txtDelivered-To: sec.user.acc@gmail.com
 Received: by 2002:a05:7022:65aa:b0:a3:fc22:5a87 with SMTP id bd42csp6551653dlb;

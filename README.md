@@ -109,9 +109,9 @@ The email was successfully delivered to the primary inbox (not spam), verifying 
 
 Once the test email was delivered, I retrieved the full email header from Gmail to verify whether it successfully passed all authentication checks (SPF, DKIM, DMARC) and aligned with secure sending best practices.
 
-Email Delivered To: sec.user.acc@gmail.com
-Sender: info@richard-demetrius.com
-Mailgun Sending IP: 159.135.228.58
+- Email Delivered To: sec.user.acc@gmail.com
+- Sender: info@richard-demetrius.com
+- Mailgun Sending IP: 159.135.228.58
 
 Email Authentication Results Summary:
 - SPF = Softfail – google.com: domain ... does not designate 159.135.228.58 as permitted sender (likely because hostinger added dns records to accomodate the new email account I added to the domain in between my first spf verification and sending the email, however it only 'softfailed' and the email was still delivered to the main inbox.

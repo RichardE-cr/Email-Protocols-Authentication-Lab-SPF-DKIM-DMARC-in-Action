@@ -39,9 +39,9 @@ By mimicking these practical challenges, the lab strengthens core skills in emai
 
 
 ## Step 2: Configure Domain Email Authentication
-Domain Used: richard-demetrius.com 
-DNS Manager: Hostinger
- Email Provider: Mailgun
+- Domain Used: richard-demetrius.com 
+- DNS Manager: Hostinger
+-  Email Provider: Mailgun
 
 After creating a Mailgun account and adding my domain from Hostinger, I accessed the necessary DNS records (SPF, DKIM, and DMARC) that needed to be configured for secure email authentication. These records authorize Mailgun to send emails on behalf of my domain and protect against spoofing or tampering. 
 

@@ -28,13 +28,12 @@ By mimicking these practical challenges, the lab strengthens core skills in emai
 
 
 ## Step 1: Environment Setup (Azure VM)
-* Provisioned an Ubuntu 24.04 VM (email-rich) in Microsoft Azure
+* Provisioned an Ubuntu 24.04 VM (email-protocols-rich) in Microsoft Azure with SSH (22) open
 * Configured the VM with:
-    * SSH
     * Remote Desktop Protocol (RDP) via xrdp
 * Opened necessary ports:
-    * TCP 3389 (RDP access)
-    * TCP 25 (SMTP delivery test)
+    * TCP 3389 
+    * TCP 25 
 
 <img width="1422" alt="Downloading xrdp-email-rich" src="https://github.com/user-attachments/assets/e04bbfad-5159-416c-8bad-9cc319fcc437" />
 
